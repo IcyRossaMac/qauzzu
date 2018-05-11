@@ -1,0 +1,17 @@
+/* HEADER */
+
+.main-header {
+    background: url(../img/background.jpg) center;
+    background-size: cover;
+    min-height: 600px;
+    color: #FFFFFF;
+}
+
+.main-header .showcase {
+    padding-top: 110px;
+}
+
+.active-link {
+    color: #D847F1;
+    font-weight: bold;
+}
