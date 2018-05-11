@@ -54,9 +54,19 @@
     background: rgba(112, 81, 176, 0.9);
 }
 
+/* Testimonial */
+.carousel-item p {
+    font-size: 20px !important;
+}
+
+
+/* Media Queries */
+
 @media(max-width: 500px) {
     .section-developers,
     .section-podcast {
         min-height: 240px;
     }
 }
+
+
