@@ -9,6 +9,11 @@
     overflow: hidden;
 }
 
+.btn-extend {
+    display: block;
+    width: 100%;
+}
+
 /* HEADER */
 .main-header {
     background: url(../img/background.jpg) center;
@@ -18,7 +23,18 @@
 }
 
 .main-header .showcase {
-    padding-top: 110px;
+    padding-top: 100px;
+}
+
+.main-header-inner {
+    background: url(../img/background.jpg) center;
+    background-size: cover;
+    min-height: 350px;
+    color: #FFFFFF;
+}
+
+.main-header-inner .showcase {
+    padding-top: 50px;
 }
 
 .active-link {
@@ -36,7 +52,7 @@
     min-height: 160px;
 }
 
-/* Podcast */
+/* PODCAST */
 .section-podcast {
     position: relative;
     background: url(../img/circuit.jpg) center;
@@ -54,13 +70,18 @@
     background: rgba(112, 81, 176, 0.9);
 }
 
-/* Testimonial */
+/* TESTIMONIAL */
 .carousel-item p {
     font-size: 20px !important;
 }
 
+/* SOLUTIONS */
+.tabs .indicator {
+    background-color: #6a1b9a !important;
+}
 
-/* Media Queries */
+
+/* MEDIA QUERIES */
 
 @media(max-width: 500px) {
     .section-developers,
